@@ -1,2 +1,2 @@
 # Hover-Effects-with-Grid-Layout
-This project is a responsive section created using HTML5 and external CSS. 
+This project is a responsive section created using HTML5 and external CSS. It displays a collection of project cards in a grid layout, where each card contains an image and hidden content that becomes visible on hover. The page includes Font Awesome icons for social media links, and a favicon for branding. The main concepts used in this project are external CSS styling, CSS Grid layout for structure, hover effects for interactivity, and semantic HTML elements. The outcome is a clean and interactive portfolio layout that highlights different projects in an engaging way.
