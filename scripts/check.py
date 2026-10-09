@@ -15,5 +15,6 @@ class Check(HTMLParser):
    if value and not url.scheme and url.path and not (root/unquote(url.path)).is_file():self.errors.append('Missing local asset: '+value)
 for name in ['index.html','Task9.html']:
  parser=Check();parser.feed((root/name).read_text(encoding='utf-8'));assert parser.cards==6;assert not parser.errors,parser.errors
-assert (root/'index.html').read_bytes()==(root/'Task9.html').read_bytes()
+assert (root/'index.html').read_text(encoding='utf-8')==(root/'Task9.html').read_text(encoding='utf-8')
 print('Both entry pages, six accessible cards and local assets checked.')
+
